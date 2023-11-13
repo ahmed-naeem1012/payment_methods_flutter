@@ -68,7 +68,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
         backgroundColor: Colors.white,
         body: Padding(
-          padding: EdgeInsets.all(10),
+          padding: EdgeInsets.all(40),
           child:
               Center(child: Platform.isIOS ? applePayButton : googlePayButton),
         ));
