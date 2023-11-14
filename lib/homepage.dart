@@ -66,9 +66,9 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.green,
+        backgroundColor: Colors.yellow,
         body: Padding(
-          padding: EdgeInsets.all(40),
+          padding: EdgeInsets.all(10),
           child:
               Center(child: Platform.isIOS ? applePayButton : googlePayButton),
         ));
