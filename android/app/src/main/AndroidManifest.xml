@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.payment_methods_flutter">
+    package="com.example.mainpayment_methods_flutter">
    <application
         android:label="payment_methods_flutter"
         android:name="${applicationName}"
